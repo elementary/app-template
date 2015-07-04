@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
-Name=Template
-GenericName=Template Project
+Name=App Template
+GenericName=Demo Project
 Comment=Use this as a template for your project
 Exec=template
 Icon=template
