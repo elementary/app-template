@@ -3,5 +3,5 @@ Type=Application
 Name=App Template
 GenericName=Demo Project
 Comment=Use this as a template for your project
-Exec=template
-Icon=template
+Exec=com.github.elementary.app-template
+Icon=com.github.elementary.app-template
