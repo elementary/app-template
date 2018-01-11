@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2018 Your Name <you@example.com> -->
+<component type="desktop">
+  <id>com.github.elementary.app-template.desktop</id>
+  <metadata_license>CC0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>App Template</name>
+  <summary>Use this as a template for your project</summary>
+  <description>
+    <p>Some longer information about the project. Can be multiple paragraphs and unordered or ordered lists.</p>
+    <ul>
+      <li>Cool feature</li>
+      <li>Neat thing</li>
+      <li>Handy tip</li>
+    </ul>
+  </description>
+  <provides>
+    <binary>com.github.elementary.app-template</binary>
+  </provides>
+  ​<releases>
+    <release version="1.0.0" date="2018-01-11">
+  ​    <description>
+  ​      <p>Description of this release, i.e. a summary of changes. Can use multiple paragraphs and lists like above.</p>
+​      </description>
+    </release>
+  </releases>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/elementary/app-template/master/data/screenshot.png</image>
+    </screenshot>
+  </screenshots>
+  <developer_name>Your Name or Company Name</developer_name>
+  <url type="homepage">https://exmaple.com</url>
+  <url type="bugtracker">https://github.com/elementary/app-template/issues</url>
+  <custom>
+    <!-- elementary AppCenter specific values -->
+    <value key="x-appcenter-color-primary">#d1ff82</value>
+    <value key="x-appcenter-color-primary-text">#333</value>
+    <!-- Suggested price in USD; just a suggestion, NOT a minimum. -->
+    <value key="x-appcenter-suggested-price">5</value>
+  </custom>
+</component>
